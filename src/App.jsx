@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-          <button class="StartButton" type="button">Start</button>
+          <button class="StartButton" type="button" onClick="{StartApp}">Start</button>
       </header>
     </div>
   );
